@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#F7BE81">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="@string/titulo1"
+        android:id="@+id/textView"
+        android:layout_marginTop="15sp"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="20sp"
+        android:textAlignment="center"
+        android:background="#CEF6F5"
+        android:textStyle="bold"
+        android:textSize="27sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="@string/titulo2"
+        android:id="@+id/textView2"
+        android:layout_marginBottom="15sp"
+        android:textColor="#000000"
+        android:textStyle="normal"
+        android:textSize="21sp"
+        android:layout_marginLeft="10sp"
+        android:layout_marginTop="30dp"
+        android:drawableLeft="@mipmap/ic_launcher"
+        android:gravity="center"
+        android:textAlignment="center" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="numberSigned"
+        android:ems="10"
+        android:id="@+id/txtDni"
+        android:layout_marginBottom="30sp"
+        android:layout_marginLeft="10sp"
+        android:layout_marginRight="10sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="@string/titulo3"
+        android:id="@+id/textView3"
+        android:layout_marginBottom="15sp"
+        android:textColor="#000000"
+        android:textStyle="normal"
+        android:textSize="21sp"
+        android:layout_marginLeft="10sp" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtNombres"
+        android:layout_marginBottom="30sp"
+        android:inputType="text"
+        android:layout_marginLeft="10sp"
+        android:layout_marginRight="10sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="@string/titulo4"
+        android:id="@+id/textView4"
+        android:layout_marginBottom="15sp"
+        android:textColor="#000000"
+        android:textStyle="normal"
+        android:textSize="21sp"
+        android:layout_marginLeft="10sp" />
+
+    <Spinner
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/cmbDepartamento"
+        android:layout_marginBottom="50sp"
+        android:layout_marginLeft="10sp"
+        android:layout_marginRight="10sp" />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:weightSum="1">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/boton4"
+            android:id="@+id/btnRegistrar"
+            android:layout_marginRight="60sp"
+            android:background="#A9F5E1"
+            android:textSize="20sp"
+            android:textAlignment="textStart"
+            android:drawableLeft="@mipmap/registrar"
+            android:layout_weight="0.20" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/boton5"
+            android:id="@+id/btnLimpiar"
+            android:background="#A9F5E1"
+            android:textSize="20sp"
+            android:textAlignment="textStart"
+            android:drawableLeft="@mipmap/limpiar"
+            android:layout_weight="0.20" />
+    </LinearLayout>
+</LinearLayout>

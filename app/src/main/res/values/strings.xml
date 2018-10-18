@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">PRUEBAS DE VENTANAS</string>
+
+    <string name="hello_word">OPCIONES PRINCIPALES</string>
+
+    <!-- Cadena de ventana principal-->
+    <string name="boton1">Registro</string>
+    <string name="boton2">Listas</string>
+    <string name="boton3">Combo Box</string>
+
+
+    <!-- Cadena de ventana de registro-->
+    <string name="titulo1">REGISTRO DE PERSONAL</string>
+    <string name="titulo2">DNI</string>
+    <string name="titulo3">NOMBRES</string>
+    <string name="titulo4">DEPARTAMENTO</string>
+    <string name="boton4">Registrar</string>
+    <string name="boton5">Limpiar</string>
+
+
+</resources>
